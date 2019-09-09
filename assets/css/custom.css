@@ -1,0 +1,174 @@
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #616161;
+}
+
+h1,
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1;
+  color: #262626;
+  margin-bottom: 0.5rem;
+}
+
+.fullheight {
+  position: relative;
+  height: auto
+}
+
+@media only screen and (min-width: 1200px) {
+  .fullheight {
+    height: 100%
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+p.headline-text {
+  font-size: 1rem;
+  margin-bottom: 1rem
+}
+
+.headline {
+  position: relative;
+  width: 100%;
+  padding: 0 10%
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro-content {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .headline {
+    padding: 0 6rem
+  }
+}
+
+.intro-content {
+  position: relative;
+  min-height: 480px;
+  padding: 10% 0;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro-content {
+    height: 100vh;
+    padding: 0
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .intro-content {
+    height: 100%;
+    min-height: 546px
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .intro-content {
+    min-height: 654px
+  }
+}
+
+.main-intro {
+  position: relative;
+  height: auto;
+  min-height: 480px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-intro {
+    height: 100vh;
+    padding: 0
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-intro {
+    height: 100%;
+    min-height: 546px
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .main-intro {
+    min-height: 654px
+  }
+}
+
+
+.main-media {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+
+.main-media .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover
+}
+
+@media only screen and (min-width: 768px) {
+  .main-media {
+    height: 760px
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-media {
+    height: 100%;
+    min-height: 546px
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .main-media {
+    min-height: 654px
+  }
+}
+
+.form-container {
+  --primary-color: #262626;
+  --primary-hover-color: #c1c1c1;
+  --border-focus-color: #262626;
+}
+
+.form-container button, .form-container  .af-step-button{
+  width: 100%;
+  margin: 0;
+}
+
+.form-container button span {
+  text-transform: uppercase;
+}
